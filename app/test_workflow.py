@@ -18,7 +18,7 @@ shivani_chunks = [
 ]
 
 # Build and store
-build_vectorstore(shivani_chunks)
+build_vectorstore(data)
 
 # Load and query
 vs = load_vectorstore()
